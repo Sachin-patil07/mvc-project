@@ -6,5 +6,13 @@ let product=(req,res)=>{
     res.send("Welcome to Home Page Prodcuts with Controller Function ")
 }
 
+let category=(req,res)=>{
+    res.send("Welcome to Home Page Category with Controller Function")
+}
 
-module.exports={slider, product}
+let team=(req,res)=>{
+    res.send("Welcome to About page Team with controller Function ")
+}
+
+
+module.exports={slider, product, category, team}

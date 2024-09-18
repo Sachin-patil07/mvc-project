@@ -1,10 +1,9 @@
-let express=require("express")
+let express=require("express");
+const { team } = require("../../controller/website/homepageController");
 
 let aboutpageRoute=express.Router();
 
-aboutpageRoute.get("/team", (req,res)=>{
-    res.send("Welcome to About us Page API -- Team")
-})
+aboutpageRoute.get("/team" , team)
 
 
 

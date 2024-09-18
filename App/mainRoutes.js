@@ -6,4 +6,7 @@ let mainRoutes = express.Router();       // made variable and call the routes fu
 
 mainRoutes.use('/website/homepageapi', homepageRoute )  // http://localhost:8000/website/homepageapi/slider
 mainRoutes.use('/website/aboutpageapi', aboutpageRoute) // http://localhost:8000/website/aboutpageapi/team
+
+
+
 module.exports={mainRoutes}
